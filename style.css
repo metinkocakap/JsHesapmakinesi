@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-size: large;
+}
+body{
+background-color: bisque;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+#calculator{
+	width: 285px;
+	height: auto;
+	margin: 10px;
+	padding: 5px;
+	background-color: #000000;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px 5px rgba(80, 80, 80, 0.4);
+}
+p{
+	font-size: 28px;
+	width: 250px;
+	height: 35px;
+	background-color: rgb(102, 102, 102);
+	color: white;
+	float: left;
+	border-radius: 5px;
+	padding: 10px 10px;
+	margin: 5px;
+	text-align: right;
+	overflow-x:auto ;
+}
+button{
+	width: 60px;
+	height: 50px;
+	background-color: #8b3232;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	margin: 5px 5px 5px 5px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	line-height: 36px;
+	text-align: center;
+	box-shadow: 3px 3px rgb(146, 80, 80);
+	transition: all 0.2 ease;
+}
+#clr{
+	background-color: #5e5e5e;
+	color: white;
+	float: left;
+	box-shadow: 3px 3px #797979;
+}
+.opr{
+	background-color: rgb(101, 103, 255);
+	color: white;
+	box-shadow: 3px 3px #6967f8;
+}
+button:hover{
+	background-color: #424242;
+	color: white;
+}
+#clr:hover{
+	background-color: #5a5a5a;
+}
+#opr{
+	width: 200px;
+	height: 50px;
+	background-color: rgb(101, 103, 255);
+	color: white;
+}
+#opr:hover{
+	background-color: rgb(77, 77, 77);
+}
+.clr{
+	background-color: rgb(59, 59, 59);
+	color: white;
+}
+.clr:hover{
+	background-color: #3b3b3b;
+}
